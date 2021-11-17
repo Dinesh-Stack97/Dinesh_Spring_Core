@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="heartObjectValue" class="com.Spring.Autowiring.Spring_Autowire_annotation.Heart"></bean>
+
+<bean id="human" class="com.Spring.Autowiring.Spring_Autowire_annotation.Human" autowire="constructor">
+
+
+<!--Auto wirebyName -->
+<!--  <bean id="heart" class="com.Spring.Autowiring.Spring_Autowire_annotation.Heart"></bean> -->
+<!--  <bean id="human" class="com.Spring.Autowiring.Spring_Autowire_annotation.Human" autowire="byName">-->
+
+<!-- Autowire bytype-->
+<!--  <bean id="heartObjectValue" class="com.Spring.Autowiring.Spring_Autowire_annotation.Heart"></bean> -->
+<!--  <bean id="human" class="com.Spring.Autowiring.Spring_Autowire_annotation.Human" autowire="byType"> -->
+
+<!-- Autowire using constructor -->
+<!-- 
+<bean id="heartObjectValue" class="com.Spring.Autowiring.Spring_Autowire_annotation.Heart"></bean>
+
+<bean id="human" class="com.Spring.Autowiring.Spring_Autowire_annotation.Human" autowire="constructor">
+ -->
+ 
+</bean>
+
+
+</beans>
